@@ -1,12 +1,12 @@
-.nav {
+nav {
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
 	-webkit-justify-content: space-between;
 	-webkit-flex-wrap: wrap;
-	background-color: 
+	background-color: black;
 }
 
-.nav li{
+nav li{
 	-webkit-flex-grow: 1;
 }
 
