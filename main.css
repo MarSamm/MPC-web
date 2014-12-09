@@ -1,6 +1,7 @@
 nav {
 	display: flex;
 	flex-direction: row;
+<<<<<<< HEAD
 	justify-content: center, space-around;
 	align-context: center;
 	background-color: black;
@@ -12,3 +13,8 @@ p {
 	justify-content: center;
 	background-color: black;
 }
+=======
+	flex-wrap: wrap;
+	justify-content: center;
+}
+>>>>>>> FETCH_HEAD
