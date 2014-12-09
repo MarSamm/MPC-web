@@ -1,3 +1,8 @@
+
+
+
+
+
 /*******************************
 FLEXBOXES
 *******************************/
@@ -43,6 +48,74 @@ text-decoration: none;
 .buttons {
 	background-color: red;
 }
+
+img {
+  max-width: 100%;
+
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img.bw { -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+/***********************************************
+PAGE: STAFF
+************************************************/
+#flex3 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#flex3 li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
+/***********************************************
+PAGE: STUDENTS
+************************************************/
+
+
+
+#flex {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#flex2 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#flex li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
+#flex2 li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
 
 
 
