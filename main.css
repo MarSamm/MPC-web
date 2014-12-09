@@ -1,22 +1,6 @@
 nav {
-	display: -webkit-flex;
-	-webkit-flex-direction: row;
-	-webkit-justify-content: space-between;
-	-webkit-flex-wrap: wrap;
-	background-color: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
-nav li{
-	-webkit-flex-grow: 1;
-}
-
-
-@media screen and (max-width: 999px) {
-	.main {
-		-webkit-flex-direction: column;
-	}
-}
-
-/*.nav li:last-child {
-	margin-left: 
-};*/
