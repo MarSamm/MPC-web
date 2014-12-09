@@ -1,4 +1,6 @@
-/*flexboxes*/
+/*******************************
+FLEXBOXES
+*******************************/
 
 nav {
 	display: flex;
@@ -27,4 +29,12 @@ nav {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+/*******************************
+GENERAL
+*******************************/
+
+a {
+text-decoration: none;
 }
