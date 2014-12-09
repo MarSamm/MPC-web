@@ -3,7 +3,7 @@ nav {
 	flex-direction: row;
 	justify-content: center, space-around;
 	align-context: center;
-	background-color: black;
+	background-color: gray;
 }
 
 #flex {
