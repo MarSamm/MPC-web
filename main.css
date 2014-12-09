@@ -38,3 +38,8 @@ GENERAL
 a {
 text-decoration: none;
 }
+
+
+.buttons {
+	background-color: red;
+}
