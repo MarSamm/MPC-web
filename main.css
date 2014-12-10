@@ -136,15 +136,15 @@ PICTURES
 SUBJECT TAGS 
 *******************************/
 
-.subjects {
+.buttons {
   margin: 10;
   padding: 20px;
-  width: 180px;
+  width: 170px;
   height: 50px;
   border: 2px solid;
 
   display: -webkit-inline-flex;
-  justify-content: space-around;
+  justify-content: center;
   -webkit-align-content: center;
   -webkit-align-items: center;
   flex-flow: column wrap;
