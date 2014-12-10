@@ -41,7 +41,8 @@ text-decoration: none;
 
 
 .buttons {
-	background-color: red;
+	background-color: blue;
+	font-size: 0.80em;
 }
 
 img {
@@ -130,11 +131,6 @@ PICTURES
   color: #bdc3c7;
 }
 
-
-.buttons {
-
-	background-color: blue;
-}
 
 
 
