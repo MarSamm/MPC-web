@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $('button').click(function () {
-    $('button').addClass('bw');
     $('button').removeClass('selected');
     $(this).addClass('selected');
   })
@@ -27,7 +26,7 @@ $(function(){
 
 
 
-//Programming
+//Computer Science
 
 var progTag;
 
