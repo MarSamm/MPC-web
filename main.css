@@ -211,10 +211,23 @@ SUBJECT TAGS
 }
 
 
+/***********************************************
+  FOOTER
+************************************************/
 
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
 
-
-
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
 
 
 
