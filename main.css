@@ -66,28 +66,19 @@ img.bw { -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
 }
 
-img.bor {
-  -webkit-animation-name: popout;
-  -webkit-animation-duration: 0.3s;
-  -webkit-animation-iteration-count: 1;
-}
- 
-@-webkit-keyframes popout {
-  0% {
-    -webkit-transform: scale(1);
-  }
-  20% {
-    -webkit-transform: scale(0.90);
-    -webkit-animation-timing-function: ease-out;
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-    -webkit-animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-  }
+img.bor { 
+    width: 400px;
+    padding: 20px;
+    border-top: 10px solid #FFFF00;
+    border-bottom:10px solid #FF0000;
+    background-image: 
+        linear-gradient(#FFFF00, #FF0000),
+        linear-gradient(#FFFF00, #FF0000)
+    ;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+
 }
 
 /***********************************************
