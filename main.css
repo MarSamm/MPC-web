@@ -50,6 +50,14 @@ text-decoration: none;
   padding: 20px;
 }
 
+#Com {
+  width: 150px;
+}
+
+#Entre {
+  width: 150px;
+}
+
 img {
   max-width: 100%;
 
@@ -197,7 +205,7 @@ SUBJECT TAGS
   color: white;
 
   display: -webkit-inline-flex;
-  justify-content: space-around;
+  justify-content: center;
   -webkit-align-content: center;
   -webkit-align-items: center;
   flex-flow: column wrap;
