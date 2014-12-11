@@ -41,9 +41,9 @@ text-decoration: none;
 }
 
 .buttons {
-  text-decoration: none;
-	background-color: blue;
+	background-color:#bf1e2e;
 	font-size: 1em;
+  padding: 20px;
 }
 
 img {
@@ -137,11 +137,13 @@ SUBJECT TAGS
 *******************************/
 
 .subject {
+
   margin: 10;
-  padding: 20px;
+  padding: 50px;
   width: 170px;
   height: 50px;
   border: 2px solid;
+  border-radius: 5px;
 
   display: -webkit-inline-flex;
   justify-content: center;
