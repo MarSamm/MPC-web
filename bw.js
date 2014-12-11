@@ -18,6 +18,7 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Arts').click(function (){
     $('.all').addClass('bw');
+    $('.all').addClass('bor');
     console.log("here");
     console.log(visTag);
     $(visTag).removeClass('bw');
@@ -40,9 +41,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Prog').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(progTag);
     $(progTag).removeClass('bw');
+    $(progTag).addClass('bor');
   });
 });
 
@@ -61,9 +64,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Ed').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(edTag);
     $(edTag).removeClass('bw');
+    $(edTag).addClass('bor');
   });
 });
 
@@ -80,9 +85,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Com').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(comTag);
     $(comTag).removeClass('bw');
+    $(comTag).addClass('bor');
   });
 });
 
@@ -99,9 +106,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Entre').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(entreTag);
     $(entreTag).removeClass('bw');
+    $(entreTag).addClass('bor');
   });
 });
 
@@ -118,9 +127,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#SocSc').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(econTag);
     $(econTag).removeClass('bw');
+    $(econTag).addClass('bor');
   });
 });
 
@@ -138,9 +149,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Lit').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(litTag);
     $(litTag).removeClass('bw');
+    $(litTag).addClass('bor');
   });
 });
 
@@ -157,9 +170,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#His').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(hisTag);
     $(hisTag).removeClass('bw');
+    $(hisTag).addClass('bor');
   });
 });
 
@@ -176,9 +191,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Phil').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(philTag);
     $(philTag).removeClass('bw');
+    $(philTag).addClass('bor');
   });
 });
 
@@ -194,9 +211,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Nat').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(natTag);
     $(natTag).removeClass('bw');
+    $(natTag).addClass('bor');
   });
 
 });
