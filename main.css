@@ -1,6 +1,3 @@
-body{
-  font-family: 'Raleway', sans-serif;
-}
 
 /*******************************
 FLEXBOXES
@@ -42,7 +39,6 @@ GENERAL
 a {
 text-decoration: none;
 }
-
 
 .buttons {
   text-decoration: none;
