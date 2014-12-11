@@ -203,7 +203,15 @@ SUBJECT TAGS
   flex-flow: column wrap;
 }
 
+/*******************************
+LOGO
+*******************************/
 
+#red {
+  display: block;
+  height: 120px;
+  width: 120px;
+ 
 
 
 
