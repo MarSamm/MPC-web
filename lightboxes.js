@@ -29,7 +29,33 @@ $("#flex a").click(function(event) {
 	var quoteText = $(this).children("img").attr("alt");
 	$quote.text(quoteText);
 
-});	
+});		
+
+$("#flex2 a").click(function(event) {
+	event.preventDefault();
+	var imageLocation = $(this).attr("href");
+
+	$image.attr("src", imageLocation);
+
+	$overlay.show(); 
+
+	var quoteText = $(this).children("img").attr("alt");
+	$quote.text(quoteText);
+
+});
+
+$("#flex3 a").click(function(event) {
+	event.preventDefault();
+	var imageLocation = $(this).attr("href");
+
+	$image.attr("src", imageLocation);
+
+	$overlay.show(); 
+
+	var quoteText = $(this).children("img").attr("alt");
+	$quote.text(quoteText);
+
+});
 
 $overlay.click(function(){
 	$overlay.hide();
