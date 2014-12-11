@@ -106,7 +106,7 @@ PAGE: HOMEPAGE
   display: block;
   height: 300px;
   width: 300px;
-  position: absolute;
+  position: relative;
   left: -300px;
 }
 
