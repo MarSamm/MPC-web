@@ -106,9 +106,8 @@ PAGE: HOMEPAGE
   display: block;
   height: 300px;
   width: 300px;
-  position: fixed;
-  top: 30px;
-  right: 5px;
+  position: relative;
+  right: -100px;
 }
 
 #caption_up {
