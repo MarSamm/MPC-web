@@ -16,6 +16,8 @@ body{
 
 #overlay img {
 	margin-top: 10%;
+	width: 50%;
+	height: auto;
 }
 
 #overlay p {
