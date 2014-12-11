@@ -107,7 +107,7 @@ PAGE: HOMEPAGE
   height: 300px;
   width: 300px;
   position: relative;
-  left: -900px;
+  right: 1000px;
 }
 
 #caption_up {
