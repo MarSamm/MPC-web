@@ -224,6 +224,11 @@ SUBJECT TAGS
   flex-flow: column wrap;
 }
 
+.subjects a:hover {
+  background: black;
+  color: white;
+}
+
 
 
 
