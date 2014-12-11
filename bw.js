@@ -21,6 +21,8 @@ $(function(){
     console.log("here");
     console.log(visTag);
     $(visTag).removeClass('bw');
+    $(visTag).addClass('bor');
+
   });
 });
 
@@ -199,21 +201,3 @@ $(function(){
 
 });
 
-//Hard Sciences
-
-
-var harTag;
-
-if (document.querySelectorAll) {
-  harTag = document.querySelectorAll('.har');
-}
-
-
-$(function(){
-  $('#Har').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(harTag);
-    $(harTag).removeClass('bw');
-  });
-});
