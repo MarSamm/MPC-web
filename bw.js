@@ -170,7 +170,7 @@ if (document.querySelectorAll) {
 $(function(){
   $('#His').click(function (){
     $('.all').addClass('bw');
-    $('.all').removeClass('bor');
+    $('.all').remove Class('bor');
     console.log("here");
     console.log(hisTag);
     $(hisTag).removeClass('bw');
