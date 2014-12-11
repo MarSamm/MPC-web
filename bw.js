@@ -45,7 +45,7 @@ $(function(){
     console.log("here");
     console.log(progTag);
     $(progTag).removeClass('bw');
-    $(progTag).addClass('bor');
+    ;
   });
 });
 
