@@ -66,6 +66,13 @@ img.bw { -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
 }
 
+img.bor { 
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 6px double #404040;
+}
+
 /***********************************************
 PAGE: HOMEPAGE
 ************************************************/
@@ -197,7 +204,7 @@ SUBJECT TAGS
   color: white;
 
   display: -webkit-inline-flex;
-  justify-content: center;
+  justify-content: space-around;
   -webkit-align-content: center;
   -webkit-align-items: center;
   flex-flow: column wrap;
@@ -207,15 +214,31 @@ SUBJECT TAGS
 LOGO
 *******************************/
 
+<<<<<<< HEAD
 #red {
   display: block;
   height: 120px;
   width: 120px;
  
+=======
+/***********************************************
+  FOOTER
+************************************************/
+>>>>>>> FETCH_HEAD
 
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
 
-
-
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
 
 
 

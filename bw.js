@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $('button').click(function () {
-    $('button').addClass('bw');
     $('button').removeClass('selected');
     $(this).addClass('selected');
   })
@@ -9,98 +8,28 @@ $(document).ready(function () {
 
 //Visual Arts
 
-var visTag;
+var artTag;
 
 if (document.querySelectorAll) {
-  visTag = document.querySelectorAll('.vis');
+  visTag = document.querySelectorAll('.art');
 }
 
 
 $(function(){
-  $('#VisA').click(function (){
+  $('#Arts').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(visTag);
     $(visTag).removeClass('bw');
-  });
-});
+    $(visTag).addClass('bor');
 
-//Performing Arts
-
-var perATag;
-
-if (document.querySelectorAll) {
-  perATag = document.querySelectorAll('.per');
-}
-
-
-$(function(){
-  $('#PerA').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(perATag);
-    $(perATag).removeClass('bw');
-  });
-});
-
-//Culinary Arts
-
-var culATag;
-
-if (document.querySelectorAll) {
-  culATag = document.querySelectorAll('.cul');
-}
-
-
-$(function(){
-  $('#CulA').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(culATag);
-    $(culATag).removeClass('bw');
   });
 });
 
 
-//Music
 
-
-var musTag;
-
-if (document.querySelectorAll) {
-  musTag = document.querySelectorAll('.mus');
-}
-
-
-$(function(){
-  $('#Mus').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(musTag);
-    $(musTag).removeClass('bw');
-  });
-});
-
-
-//Humanities
-
-var humTag;
-
-if (document.querySelectorAll) {
-  humTag = document.querySelectorAll('.hum');
-}
-
-
-$(function(){
-  $('#Hum').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(humTag);
-    $(humTag).removeClass('bw');
-  });
-});
-
-//Programming
+//Computer Science
 
 var progTag;
 
@@ -112,9 +41,12 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Prog').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(progTag);
     $(progTag).removeClass('bw');
+    $(progTag).addClass('bor');
+    ;
   });
 });
 
@@ -133,9 +65,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Ed').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(edTag);
     $(edTag).removeClass('bw');
+    $(edTag).addClass('bor');
   });
 });
 
@@ -152,9 +86,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Com').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(comTag);
     $(comTag).removeClass('bw');
+    $(comTag).addClass('bor');
   });
 });
 
@@ -171,48 +107,35 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Entre').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(entreTag);
     $(entreTag).removeClass('bw');
+    $(entreTag).addClass('bor');
   });
 });
 
 // Economy and Politics
 
 
-var econTag;
+var SocScTag;
 
 if (document.querySelectorAll) {
-  econPTag = document.querySelectorAll('.econ');
+  econPTag = document.querySelectorAll('.soc');
 }
 
 
 $(function(){
-  $('#Econ').click(function (){
+  $('#SocSc').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(econTag);
     $(econTag).removeClass('bw');
+    $(econTag).addClass('bor');
   });
 });
 
-//Politics
-
-var polTag;
-
-if (document.querySelectorAll) {
-  polTag = document.querySelectorAll('.pol');
-}
-
-
-$(function(){
-  $('#Pol').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(polTag);
-    $(polTag).removeClass('bw');
-  });
-});
 
 //Literature
 
@@ -227,9 +150,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Lit').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(litTag);
     $(litTag).removeClass('bw');
+    $(litTag).addClass('bor');
   });
 });
 
@@ -246,9 +171,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#His').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(hisTag);
     $(hisTag).removeClass('bw');
+    $(hisTag).addClass('bor');
   });
 });
 
@@ -265,9 +192,11 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Phil').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(philTag);
     $(philTag).removeClass('bw');
+    $(philTag).addClass('bor');
   });
 });
 
@@ -283,28 +212,12 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Nat').click(function (){
     $('.all').addClass('bw');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(natTag);
     $(natTag).removeClass('bw');
+    $(natTag).addClass('bor');
   });
 
 });
 
-//Hard Sciences
-
-
-var harTag;
-
-if (document.querySelectorAll) {
-  harTag = document.querySelectorAll('.har');
-}
-
-
-$(function(){
-  $('#Har').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(harTag);
-    $(harTag).removeClass('bw');
-  });
-});
