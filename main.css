@@ -183,14 +183,14 @@ PICTURES
 SUBJECT TAGS 
 *******************************/
 
-.subject {
-
-  margin: 10;
-  padding: 50px;
-  width: 170px;
-  height: 50px;
+.subjects {
+  margin: 5px;
+  padding: 20px;
+  width: 100px;
   border: 2px solid;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: white;
+  color: white;
 
   display: -webkit-inline-flex;
   justify-content: center;
