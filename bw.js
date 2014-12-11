@@ -18,7 +18,7 @@ if (document.querySelectorAll) {
 $(function(){
   $('#Arts').click(function (){
     $('.all').addClass('bw');
-    $('.all').addClass('bor');
+    $('.all').removeClass('bor');
     console.log("here");
     console.log(visTag);
     $(visTag).removeClass('bw');
@@ -45,6 +45,7 @@ $(function(){
     console.log("here");
     console.log(progTag);
     $(progTag).removeClass('bw');
+    $(progTag).addClass('bor');
     ;
   });
 });
