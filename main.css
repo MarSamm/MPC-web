@@ -110,6 +110,7 @@ PAGE: HOMEPAGE
   margin-right: auto;
   margin-top: 70px;
   margin-top: none;
+  position: left;
 }
 
 #caption_up {
