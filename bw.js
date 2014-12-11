@@ -9,15 +9,15 @@ $(document).ready(function () {
 
 //Visual Arts
 
-var visTag;
+var artTag;
 
 if (document.querySelectorAll) {
-  visTag = document.querySelectorAll('.vis');
+  visTag = document.querySelectorAll('.art');
 }
 
 
 $(function(){
-  $('#VisA').click(function (){
+  $('#Arts').click(function (){
     $('.all').addClass('bw');
     console.log("here");
     console.log(visTag);
@@ -25,80 +25,7 @@ $(function(){
   });
 });
 
-//Performing Arts
 
-var perATag;
-
-if (document.querySelectorAll) {
-  perATag = document.querySelectorAll('.per');
-}
-
-
-$(function(){
-  $('#PerA').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(perATag);
-    $(perATag).removeClass('bw');
-  });
-});
-
-//Culinary Arts
-
-var culATag;
-
-if (document.querySelectorAll) {
-  culATag = document.querySelectorAll('.cul');
-}
-
-
-$(function(){
-  $('#CulA').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(culATag);
-    $(culATag).removeClass('bw');
-  });
-});
-
-
-//Music
-
-
-var musTag;
-
-if (document.querySelectorAll) {
-  musTag = document.querySelectorAll('.mus');
-}
-
-
-$(function(){
-  $('#Mus').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(musTag);
-    $(musTag).removeClass('bw');
-  });
-});
-
-
-//Humanities
-
-var humTag;
-
-if (document.querySelectorAll) {
-  humTag = document.querySelectorAll('.hum');
-}
-
-
-$(function(){
-  $('#Hum').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(humTag);
-    $(humTag).removeClass('bw');
-  });
-});
 
 //Programming
 
@@ -180,15 +107,15 @@ $(function(){
 // Economy and Politics
 
 
-var econTag;
+var SocScTag;
 
 if (document.querySelectorAll) {
-  econPTag = document.querySelectorAll('.econ');
+  econPTag = document.querySelectorAll('.soc');
 }
 
 
 $(function(){
-  $('#Econ').click(function (){
+  $('#SocSc').click(function (){
     $('.all').addClass('bw');
     console.log("here");
     console.log(econTag);
@@ -196,23 +123,6 @@ $(function(){
   });
 });
 
-//Politics
-
-var polTag;
-
-if (document.querySelectorAll) {
-  polTag = document.querySelectorAll('.pol');
-}
-
-
-$(function(){
-  $('#Pol').click(function (){
-    $('.all').addClass('bw');
-    console.log("here");
-    console.log(polTag);
-    $(polTag).removeClass('bw');
-  });
-});
 
 //Literature
 
