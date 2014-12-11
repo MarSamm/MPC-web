@@ -101,15 +101,7 @@ PAGE: HOMEPAGE
   margin-top: none;
 
 }
-
-#red {
-  display: block;
-  height: 300px;
-  width: 300px;
-  position: relative;
-  left: -300px;
-}
-
+ 
 #caption_up {
   text-transform: uppercase;
   color: white;
