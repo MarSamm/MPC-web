@@ -67,18 +67,10 @@ filter: grayscale(100%);
 }
 
 img.bor { 
-    width: 400px;
-    padding: 20px;
-    border-top: 10px solid #FFFF00;
-    border-bottom:10px solid #FF0000;
-    background-image: 
-        linear-gradient(#FFFF00, #FF0000),
-        linear-gradient(#FFFF00, #FF0000)
-    ;
-    background-size:10px 100%;
-    background-position:0 0, 100% 0;
-    background-repeat:no-repeat;
-
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 6px double #c40a0a;
 }
 
 /***********************************************
