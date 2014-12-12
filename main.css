@@ -72,7 +72,7 @@ nav li img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+
 }
 
 /*******************************
@@ -119,7 +119,9 @@ img {
 fieldset { 
   display: block;
   float: left;
-  width: 25%;
+  width: 30%;
+  margin: 40px;
+  position: relative;
   }
 
 img.bw { -webkit-filter: grayscale(100%);
@@ -297,35 +299,65 @@ footer a {
 ************************************************/
 
 
-table #one {
-  margin: 100px;
-  position: fixed;
+#wrapperTwo {
+ margin: 60px;
+ min-height: 100%;
+margin-bottom: -300px;
+  max-width: 100%;
+  margin-left: 100px;
+}
+
+table  {
+  margin-top:; 100px;
+  position: relative;
   padding-top: 150px
+  margin-bottom: 100px;
+  margin-left: 100px;
 
 }
 
-table #two {
-width: 40%;
-float: right;
-margin: 100px;
-position: fixed;
-padding-top: 150px
+#info {
+
+  float: right;
+  position:absolute; 
+  top:175px; 
+  right:400px;
+
+
 }
+
+.contact-info p {
+    
+  margin:0 0 150px;
+  font-size: 2.5em;
+  font-style: normal;
+  text-align:right;
+  color: black;
+  font-style: bold;
+
+}   
+
 
 .contact-info {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .contact-info a {
   display: block;
   min-height: 40px;
-  background-repeat:no-repeat;
-  background-size:20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+  padding: 10px;
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-info a:hover {
+
+color: red;
+
 }
 
 h3 {
