@@ -80,6 +80,11 @@ nav li img {
 GENERAL
 *******************************/
 
+h1 {
+margin:50 0 80px;
+
+}
+
 html, body {
   height: 100%;
 }
