@@ -99,11 +99,6 @@ fieldset {
 
 
 
-#secondary {
-width: 40%;
-float: right;
-padding left: 100px;
-}
 
 img.bw { -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
@@ -271,7 +266,20 @@ footer {
 ************************************************/
 
 
+table #one {
+  margin: 100px;
+  position: fixed;
+  padding-top: 150px
 
+}
+
+table #two {
+width: 40%;
+float: right;
+margin: 100px;
+position: fixed;
+padding-top: 150px
+}
 
 .contact-info {
   list-style: none;
