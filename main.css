@@ -100,6 +100,25 @@ img {
 
 }
 
+#wrappere {
+  max-width: 100%;
+  padding:  40px;
+
+}
+
+fieldset { 
+  display: block;
+  float: left;
+  width: 25%;
+  }
+
+
+
+#secondary {
+width: 40%;
+float: right;
+padding left: 100px;
+}
 
 img.bw { -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
@@ -262,9 +281,33 @@ footer {
 }
 
 
+/***********************************************
+  CONTACT 
+************************************************/
 
 
 
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 40px;
+  background-repeat:no-repeat;
+  background-size:20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+h3 {
+
+  margin: 0 0 1em 0;
+}
 
 
 
