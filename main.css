@@ -2,23 +2,33 @@
 /*******************************
 FLEXBOXES
 *******************************/
-
 nav {
-  position: static;
-  display: block;
   margin-top: 40px;
   padding: 0;
   background: none;
 }
 
-nav li {
-  position: static;
-  display: block;
+nav ul {
+  overflow: auto;
+  list-style: none; 
   left:300px;
   margin-top: 40px;
   padding: 0;
+}
 
+  nav li a {
+  text-transform: uppercase;
+  color: white;
+}
 
+nav li a:hover {
+  color: black;
+}
+
+#white2 {
+  display: block;
+  height: 60px;
+  width: 60px;
 }
 
 #homepage {
@@ -219,6 +229,7 @@ LOGO
   display: block;
   height: 120px;
   width: 120px;
+}
 
  
 /***********************************************
