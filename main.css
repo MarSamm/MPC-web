@@ -6,6 +6,9 @@ FLEXBOXES
 nav ul {
   height: 100px;
   margin: 0;
+  list-style: none; 
+  left:300px;
+  margin-top: 40px;
   padding: 0;
   overflow: hidden;
   overflow: auto;
@@ -19,6 +22,7 @@ nav li {
 }
 
 nav li a {
+  float: right;
   text-transform: uppercase;
   color: white;
   font-size: 18px;
