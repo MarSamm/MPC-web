@@ -37,9 +37,10 @@ nav li img {
 
 #white2 {
   display: block;
-  height: 60px;
-  width: 60px;
-  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 #homepage {
