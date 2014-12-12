@@ -4,14 +4,8 @@ FLEXBOXES
 *******************************/
 
 nav ul {
-<<<<<<< Updated upstream
   height: 100px;
   margin: 0;
-=======
-  list-style: none; 
-  left:300px;
-  margin-top: 40px;
->>>>>>> Stashed changes
   padding: 0;
   overflow: hidden;
   overflow: auto;
@@ -25,10 +19,7 @@ nav li {
 }
 
 nav li a {
-<<<<<<< Updated upstream
   float: right;
-=======
->>>>>>> Stashed changes
   text-transform: uppercase;
   color: white;
   font-size: 18px;
