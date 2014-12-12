@@ -4,27 +4,42 @@ FLEXBOXES
 *******************************/
 
 nav ul {
+  height: 100px;
   margin: 0;
   padding: 0;
   overflow: hidden;
   overflow: auto;
-  list-style: none; 
+  list-style: none;
+  background-color:#bf1e2e;
+  border-bottom: solid #ffffff;
+}
+
+nav li {
+  margin: 0 70px 0 70px;
 }
 
 nav li a {
   float: right;
   text-transform: uppercase;
   color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 40px;
 }
 
 nav li a:hover {
   color: black;
 }
 
+nav li img {
+  float: left;
+}
+
 #white2 {
   display: block;
   height: 60px;
   width: 60px;
+  margin-top: 20px;
 }
 
 #homepage {
@@ -61,7 +76,7 @@ text-decoration: none;
 }
 
 .buttons {
-	background-color:#bf1e2e;
+	background-color:white;
 	font-size: 1em;
   padding: 20px;
 }
@@ -112,7 +127,7 @@ PAGE: HOMEPAGE
   width: 350px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
+  margin-top: 30px;
   margin-top: none;
 
 }
@@ -123,7 +138,7 @@ PAGE: HOMEPAGE
   font-size: 58px;
   font-weight: 600;
   text-align: center;
-  margin-top: 50px; 
+  margin-top: 30px; 
 }
 
 #caption_down {
