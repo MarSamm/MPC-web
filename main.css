@@ -67,6 +67,14 @@ nav li img {
 	justify-content: space-around;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
 /*******************************
 GENERAL
 *******************************/
