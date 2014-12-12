@@ -71,6 +71,20 @@ nav li img {
 GENERAL
 *******************************/
 
+html, body {
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;  
+  max-width: 100%;
+}  
+
+#wrapper:after {
+  display: block;
+}
+
 a {
 text-decoration: none;
 }
@@ -94,26 +108,11 @@ img {
 
 }
 
-#wrapper {
-  max-width: 100%;
-  padding:  20px;
-
-}
-
-#wrappere {
-  max-width: 100%;
-  padding:  40px;
-
-}
-
 fieldset { 
   display: block;
   float: left;
   width: 25%;
   }
-
-
-
 
 img.bw { -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
@@ -261,12 +260,21 @@ LOGO
 ************************************************/
 
 footer {
+  height: 100px; 
+  margin-top: 140px;
+  background-color:  #bf1e2e;  
   font-size: 1em; 
   color: white;
+  overflow: hidden;
+  list-style: none;
   text-align: center;
-  clear: both;
   padding-top: 50px;
 
+}
+
+footer a {
+  float: center;
+  margin-bottom: 60px;
 }
 
 .social-icon {
