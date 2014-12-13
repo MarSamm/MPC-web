@@ -58,6 +58,7 @@ nav li img {
 	flex-wrap: wrap;
 	justify-content: space-around;
   text-align: center;
+  text-decoration: none; 
 }
 
 #flex2 {
@@ -128,7 +129,6 @@ text-decoration: none;
 
 img {
   max-width: 100%;
-
 }
 
 fieldset { 
