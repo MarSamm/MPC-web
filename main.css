@@ -89,6 +89,19 @@ nav li img {
 GENERAL
 *******************************/
 
+li a {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+li a:hover {
+
+  color: red;
+  }
+
+
 h1 {
 margin:50 0 80px;
 
@@ -130,21 +143,6 @@ text-decoration: none;
 img {
   max-width: 100%;
 }
-
-li {
-  text-decoration: none;
-  color: black;
-
-
-}
-
-li:hover {
-
-  color: red;
-  
-
-}
-
 
 fieldset { 
   display: block;
