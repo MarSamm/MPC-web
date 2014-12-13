@@ -131,6 +131,21 @@ img {
   max-width: 100%;
 }
 
+li {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+li:hover {
+
+  color: red;
+  
+
+}
+
+
 fieldset { 
   display: block;
   float: left;
